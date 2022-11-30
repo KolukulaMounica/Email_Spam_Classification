@@ -1,4 +1,4 @@
-# Email_Spam_Classification
+## Email_Spam_Classification
 This project is about classifying emails as spam and not spam in an imbalanced data set using different text classification methods. 
 
 
@@ -9,7 +9,7 @@ Nearly 96% of phishing attacks are conducted using email. Hence, identifying and
 
 Only plain text emails are considered (emails containing image or multimedia content ignored for now)
 
-## Steps in Preprocessing
+### Steps in Preprocessing
 
 
 Understanding fields of an email file
@@ -22,7 +22,7 @@ Stemming (reducing a word to its root word)
 
 Count of each words using CountVectorizer
 
-## Transformation of Data
+### Transformation of Data
 Transforming the data using diverse methods before making prediction.
 
 fit() - Every estimator implements fit(), which takes a sample input data.
